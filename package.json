@@ -1,0 +1,23 @@
+{
+  "name": "Auto-Swap-Momentum-Finance",
+  "version": "1.0.0",
+  "description": "Automated token swap bot for Momentum Finance on Sui (Node.js)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --enable-source-maps index.js"
+  },
+  "dependencies": {
+    "@mmt-finance/clmm-sdk": "^1.0.0",
+    "@mysten/sui.js": "^0.54.1",
+    "axios": "^1.10.0",
+    "bn.js": "^5.2.2",
+    "crypto-js": "^4.2.0",
+    "decimal.js": "^10.6.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
